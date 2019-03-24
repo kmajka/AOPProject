@@ -1,18 +1,18 @@
-package com.musicdemp.maestro.equipment;
+package com.musicdemo.maestro.equipment;
 
-import com.musicdemp.maestro.track.TrackInfo;
+import com.musicdemo.maestro.track.TrackInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @Component
-public class CDplayer implements ActionPlayer {
+public class MP3player implements ActionPlayer {
 
     private int pos;
 
     @Autowired
-    private StoreData<TrackInfo> storeData;
+    StoreData<TrackInfo> storeData;
 
     @Override
     public void registerData(List<TrackInfo> tracks) {
@@ -35,8 +35,9 @@ public class CDplayer implements ActionPlayer {
 
     @Override
     public boolean playTrack(int numberTrack) {
+
         System.out.print("PLAY MUSIC .... ");
-        TrackInfo track = getInfoTrack(numberTrack);
+        TrackInfo track = storeData.get(numberTrack - 1);
         if (track != null) {
             System.out.printf("Author: \"%s\" Title: \"%s\" \n", track.getAuthor(), track.getTitle());
             return true;

@@ -1,4 +1,4 @@
-package com.musicdemp.maestro.tool;
+package com.musicdemo.maestro.tool;
 
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
@@ -15,7 +15,7 @@ public class TrackCounter {
 
     Map<Integer, Integer> counterMap = new HashMap<Integer, Integer>();
 
-    @Pointcut ("execution (* com.musicdemp.maestro.equipment.CDplayer.playTrack(int)) && args(trackNumber)")
+    @Pointcut ("execution (* com.musicdemo.maestro.equipment.CDplayer.playTrack(int)) && args(trackNumber)")
     public void trackPlayed(int trackNumber) {
     }
 

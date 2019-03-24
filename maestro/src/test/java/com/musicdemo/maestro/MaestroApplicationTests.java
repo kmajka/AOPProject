@@ -1,8 +1,8 @@
-package com.musicdemp.maestro;
+package com.musicdemo.maestro;
 
-import com.musicdemp.maestro.equipment.ActionPlayer;
-import com.musicdemp.maestro.tool.TrackCounter;
-import com.musicdemp.maestro.track.TrackInfo;
+import com.musicdemo.maestro.tool.TrackCounter;
+import com.musicdemo.maestro.equipment.ActionPlayer;
+import com.musicdemo.maestro.track.TrackInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package com.musicdemp.maestro.equipment;
+package com.musicdemo.maestro.equipment;
 
-import com.musicdemp.maestro.track.TrackInfo;
+import com.musicdemo.maestro.track.TrackInfo;
 
 import java.util.List;
 

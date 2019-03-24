@@ -1,4 +1,4 @@
-package com.musicdemp.maestro.track;
+package com.musicdemo.maestro.track;
 
 import org.springframework.stereotype.Component;
 

@@ -1,8 +1,8 @@
-package com.musicdemp.maestro;
+package com.musicdemo.maestro;
 
-import com.musicdemp.maestro.equipment.ActionPlayer;
-import com.musicdemp.maestro.equipment.CDplayer;
-import com.musicdemp.maestro.track.TrackInfo;
+import com.musicdemo.maestro.equipment.ActionPlayer;
+import com.musicdemo.maestro.equipment.CDplayer;
+import com.musicdemo.maestro.track.TrackInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

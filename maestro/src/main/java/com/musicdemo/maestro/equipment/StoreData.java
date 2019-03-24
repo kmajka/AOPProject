@@ -1,4 +1,4 @@
-package com.musicdemp.maestro.equipment;
+package com.musicdemo.maestro.equipment;
 
 import org.springframework.stereotype.Component;
 
